@@ -7,16 +7,16 @@
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="playGame()"> <!-- execute script when page fully loaded -->
+<body>
 <div>
     <div class="image-container"> <!-- Clicking on img -->
         <img src="rock.webp" alt="Rock" onclick="playGame('Rock')">
         <img src="paper.webp" alt="Paper" onclick="playGame('Paper')">
         <img src="scissors.webp" alt="Scissors" onclick="playGame('Scissors')">
     </div>
-    <div id="result"></div>
+    <div id="result">Rock, Paper, Scissors</div>
     <div id="computerChoice"></div>
-    <div id="score"></div>
+    <div id="score">Player: 0 - Computer: 0</div>
 </div>
 <script src="main.js"></script>
 </body>
