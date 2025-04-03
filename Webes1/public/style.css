@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #597d8bd0;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#result /*1st msg box formatting*/
+{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#computerChoice /*2nd msg box formatting*/
+{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#score /*3rd msg box formatting*/
+{
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.image-container /*like the name said, just formatting the containers only*/
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img /*img formatting (and cursor hover)*/
+{
+    width: 200px;
+    margin: 0 20px;
+    cursor: pointer;
+}
