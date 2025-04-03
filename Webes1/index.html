@@ -1,0 +1,24 @@
+<!-- Tested for removed img, resizing-->
+<!-- Only needs testing for mobile browser support -->
+<html> <!-- only needed a little help with formatting (css) || (Kommenteket védés miatt, magamnak írom támpontnak +utolsó sorban látott indok :p) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="playGame()"> <!-- execute script when page fully loaded -->
+<div>
+    <div class="image-container"> <!-- Clicking on img -->
+        <img src="rock.webp" alt="Rock" onclick="playGame('Rock')">
+        <img src="paper.webp" alt="Paper" onclick="playGame('Paper')">
+        <img src="scissors.webp" alt="Scissors" onclick="playGame('Scissors')">
+    </div>
+    <div id="result"></div>
+    <div id="computerChoice"></div>
+    <div id="score"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
+<!-- btw, if someone tries to use my code in the future, they will have a wonderful time cleaning all the comments (R.A.) -->
